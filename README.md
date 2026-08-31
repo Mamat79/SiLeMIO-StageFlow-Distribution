@@ -25,8 +25,10 @@ L’objectif est direct : **préparer une seule fois, imprimer ce dont chaque
 équipe a besoin et éviter de ressaisir les mêmes informations dans plusieurs
 logiciels**.
 
-StageFlow peut être utilisé seul. Il peut aussi devenir le point de départ d’un
-flux partagé avec SMT, Dante Config Editor, StageMark et AutoCAD.
+StageFlow peut être utilisé seul. Il peut aussi devenir le centre d’un flux
+partagé avec SMT, Dante Config Editor, StageMark, Stage Monitoring et AutoCAD.
+Chaque logiciel reste autonome et vous installez uniquement ceux dont vous avez
+besoin.
 
 ## Un exemple concret
 
@@ -91,6 +93,18 @@ Un projet StageFlow est un dossier portant l’extension
 <code>.stageflow</code>. Il peut être sauvegardé, rouvert, copié sur un autre
 ordinateur ou archivé avec le reste du dossier de production.
 
+### Choisir le Mode LIVE ou le travail manuel
+
+Activez **Mode LIVE** lorsque StageFlow doit coordonner le spectacle. Les pages
+de groupes, labels, micros, commentaires et choix de paires communes sont alors
+publiés automatiquement et les logiciels compatibles suivent le projet en
+temps réel.
+
+Coupez LIVE à tout moment pour revenir à un fonctionnement entièrement manuel :
+**Enregistrer** et **Recharger** restent sous votre contrôle et chaque logiciel
+continue de fonctionner seul. Une mise à jour StageMark ne déclenche jamais une
+projection et une mise à jour Dante ne commande jamais le réseau en direct.
+
 ## Un seul projet, plusieurs outils
 
 ~~~mermaid
@@ -100,6 +114,7 @@ flowchart LR
     SMT["SMT<br/>Préparation console"] <--> P
     DCE["Dante Config Editor<br/>Réseau Dante"] <--> P
     SM["StageMark<br/>Implantation + projection"] <--> P
+    MON["Stage Monitoring<br/>Écoutes live"] <--> P
     CAD["AutoCAD<br/>Plan technique"] <--> P
 ~~~
 
@@ -110,6 +125,7 @@ sans que StageFlow soit lancé.
 - [SMT — transférer labels et réglages entre consoles et logiciels](https://github.com/Mamat79/Save-My-Time-SMT/releases/latest)
 - [Dante Config Editor — préparer un réseau Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
 - [StageMark — dessiner, implanter et projeter des repères](https://github.com/Mamat79/StageMark/releases/latest)
+- **Stage Monitoring — deux écoutes stéréo et sélection rapide des sources**
 
 ## Installation Windows
 
@@ -152,8 +168,8 @@ each team and avoid entering the same data in several applications**.
 7. Open the same project in other SiLeMI/O applications when needed.
 
 StageFlow works on its own. The shared <code>.stageflow</code> project can also
-be opened by SMT, Dante Config Editor, StageMark and the optional AutoCAD 2026
-connector.
+be opened by SMT, Dante Config Editor, StageMark, Stage Monitoring and the
+optional AutoCAD 2026 connector.
 
 ### Main features
 
@@ -168,9 +184,13 @@ connector.
 - Localized Excel labels: **Balances** in French and **Sound check** in English.
 - Simple stage-plan editor.
 - Optional AutoCAD connector.
+- Explicit **LIVE mode** for real-time coordination with compatible apps.
 - French and English interface.
 - Built-in help from the **Help** menu or `F1`.
 - Local, offline projects with no mandatory cloud service.
+
+Turn LIVE mode off at any time to restore manual Save/Reload operation in
+every application. All SiLeMIO tools remain fully standalone.
 
 ### Download
 
