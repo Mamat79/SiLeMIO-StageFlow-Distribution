@@ -33,9 +33,11 @@ flux partagé avec SMT, Dante Config Editor, StageMark et AutoCAD.
 Vous préparez une scène avec 40 paires, cinq groupes et plusieurs lignes
 communes :
 
-1. choisissez le nombre de paires et de groupes ;
+1. choisissez le nombre de paires et de groupes — les choix rapides avancent
+   par blocs de 20, mais vous pouvez saisir librement une autre valeur ;
 2. saisissez les sources, micros et commentaires dans le tableau ;
-3. placez les lignes communes dans la section partagée ;
+3. placez les lignes communes dans la section partagée, puis décidez dans
+   chaque groupe quelles paires communes doivent apparaître ;
 4. utilisez le copier-coller ou tirez une sélection vers le bas pour prolonger
    une liste ;
 5. exportez un classeur Excel avec une feuille A4 par groupe ;
@@ -51,9 +53,12 @@ finissent par se contredire.
 
 ### Construire un patch à votre taille
 
-- Choisir librement le nombre de paires.
+- Choisir librement le nombre de paires, avec des raccourcis 20, 40, 60, etc.
 - Créer autant de groupes que nécessaire.
 - Ajouter des paires communes à tous les groupes.
+- Voir les valeurs communes directement dans chaque groupe.
+- Afficher ou masquer chaque paire commune, séparément pour chaque groupe.
+- Utiliser **Tout afficher** ou **Tout masquer** pour régler un groupe en un clic.
 - Modifier les cellules comme dans un tableur.
 - Copier et coller depuis ou vers Excel.
 - Recopier une valeur ou prolonger une suite en tirant vers le bas.
@@ -61,7 +66,9 @@ finissent par se contredire.
 ### Préparer des feuilles faciles à imprimer
 
 StageFlow génère un classeur Excel organisé par groupe. Chaque groupe possède
-sa propre feuille, prévue pour tenir sur une page A4 paysage lisible.
+sa propre feuille, prévue pour tenir sur une page A4 paysage lisible. Les
+paires communes masquées dans un groupe restent également absentes de sa page,
+tandis que les valeurs propres à ce groupe sont conservées.
 
 Le résultat peut être corrigé dans Excel, imprimé, envoyé ou réimporté dans
 StageFlow.
@@ -111,6 +118,12 @@ sans que StageFlow soit lancé.
 L’application et le connecteur AutoCAD peuvent être installés ou utilisés
 indépendamment selon votre méthode de travail.
 
+## Aide intégrée
+
+Le menu **Aide** et la touche **F1** ouvrent un guide directement dans
+l'application. Il explique la création du projet, les paires communes, les
+groupes, Excel, l'impression A4 et le lien avec les autres outils SiLeMIO.
+
 ---
 
 ## English
@@ -126,9 +139,10 @@ each team and avoid entering the same data in several applications**.
 
 ### A typical workflow
 
-1. Choose the required number of pairs and groups.
+1. Choose the required number of pairs and groups. Quick choices use blocks of
+   20, while any custom value can still be entered.
 2. Enter sources, microphones and comments in the spreadsheet-style grid.
-3. Add the lines shared by every group.
+3. Add shared lines, then choose which common pairs appear in each group.
 4. Copy, paste or drag down to continue a list.
 5. Export an Excel workbook with one printable A4 sheet per group.
 6. Draw the first stage elements or continue the technical plan in AutoCAD.
@@ -140,14 +154,16 @@ connector.
 
 ### Main features
 
-- Any number of pairs and groups.
-- Shared lines inherited by every group.
+- Any number of pairs and groups, with quick 20-pair increments.
+- Shared values visible directly inside individual groups.
+- Per-pair, per-group common-line visibility plus **Show all** and **Hide all**.
 - Spreadsheet-style editing, copy/paste and smart fill.
 - Excel export and refresh.
-- One landscape A4 page per group.
+- One landscape A4 page per group, respecting its common-line choices.
 - Simple stage-plan editor.
 - Optional AutoCAD connector.
 - French and English interface.
+- Built-in help from the **Help** menu or `F1`.
 - Local, offline projects with no mandatory cloud service.
 
 ### Download
