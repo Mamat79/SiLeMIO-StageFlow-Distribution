@@ -60,6 +60,8 @@ finissent par se contredire.
 - Afficher ou masquer chaque paire commune, séparément pour chaque groupe.
 - Utiliser **Tout afficher** ou **Tout masquer** pour régler un groupe en un clic.
 - Modifier les cellules comme dans un tableur.
+- Utiliser **Entrée** pour descendre et **Tab** pour passer à la cellule
+  suivante, immédiatement prête à saisir.
 - Copier et coller depuis ou vers Excel.
 - Recopier une valeur ou prolonger une suite en tirant vers le bas.
 
@@ -71,7 +73,8 @@ paires communes masquées dans un groupe restent également absentes de sa page,
 tandis que les valeurs propres à ce groupe sont conservées.
 
 Le résultat peut être corrigé dans Excel, imprimé, envoyé ou réimporté dans
-StageFlow.
+StageFlow. Le libellé est **Balances** en français et **Sound check** en
+anglais.
 
 ### Dessiner un plan de scène
 
@@ -158,8 +161,11 @@ connector.
 - Shared values visible directly inside individual groups.
 - Per-pair, per-group common-line visibility plus **Show all** and **Hide all**.
 - Spreadsheet-style editing, copy/paste and smart fill.
+- Fast keyboard entry: **Enter** moves down and **Tab** opens the next cell for
+  immediate typing.
 - Excel export and refresh.
 - One landscape A4 page per group, respecting its common-line choices.
+- Localized Excel labels: **Balances** in French and **Sound check** in English.
 - Simple stage-plan editor.
 - Optional AutoCAD connector.
 - French and English interface.
