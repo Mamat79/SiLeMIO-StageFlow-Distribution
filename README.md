@@ -2,58 +2,159 @@
   <img src="stageflow-logo.png" alt="SiLeMIO StageFlow" width="680">
 </p>
 
-# SiLeMIO StageFlow — Téléchargement Windows
+<h1 align="center">SiLeMIO StageFlow</h1>
 
-**StageFlow est gratuit.** Il permet de créer des patchs, gérer un patch commun
-et des groupes, produire un classeur Excel A4, dessiner un plan de scène et
-partager le même projet avec SMT, Dante Config Editor, StageMark et AutoCAD.
+<p align="center">
+  <strong>Préparez le patch, les groupes et le plan de scène dans un seul projet.</strong><br>
+  Gratuit · Hors ligne · Français / English · Windows 11
+</p>
 
-Il fonctionne également seul, hors ligne, en français et en anglais. Les
-autres logiciels de la suite restent autonomes : tous savent travailler avec
-le projet commun `.stageflow` sans exiger l’installation de StageFlow.
+<p align="center">
+  <a href="https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
+</p>
+
+---
+
+## StageFlow, à quoi ça sert ?
+
+StageFlow est un logiciel de préparation pour le spectacle, la captation, le
+broadcast et l’événementiel. Il rassemble dans un même projet le patch de
+scène, les paires communes, les groupes de travail et un plan simple.
+
+L’objectif est direct : **préparer une seule fois, imprimer ce dont chaque
+équipe a besoin et éviter de ressaisir les mêmes informations dans plusieurs
+logiciels**.
+
+StageFlow peut être utilisé seul. Il peut aussi devenir le point de départ d’un
+flux partagé avec SMT, Dante Config Editor, StageMark et AutoCAD.
+
+## Un exemple concret
+
+Vous préparez une scène avec 40 paires, cinq groupes et plusieurs lignes
+communes :
+
+1. choisissez le nombre de paires et de groupes ;
+2. saisissez les sources, micros et commentaires dans le tableau ;
+3. placez les lignes communes dans la section partagée ;
+4. utilisez le copier-coller ou tirez une sélection vers le bas pour prolonger
+   une liste ;
+5. exportez un classeur Excel avec une feuille A4 par groupe ;
+6. dessinez les premiers éléments du plan ou poursuivez le travail dans
+   AutoCAD ;
+7. ouvrez ensuite le même projet dans les autres logiciels SiLeMI/O si vous en
+   avez besoin.
+
+Vous gardez ainsi un seul dossier de projet au lieu de plusieurs documents qui
+finissent par se contredire.
+
+## Ce que vous pouvez faire avec StageFlow
+
+### Construire un patch à votre taille
+
+- Choisir librement le nombre de paires.
+- Créer autant de groupes que nécessaire.
+- Ajouter des paires communes à tous les groupes.
+- Modifier les cellules comme dans un tableur.
+- Copier et coller depuis ou vers Excel.
+- Recopier une valeur ou prolonger une suite en tirant vers le bas.
+
+### Préparer des feuilles faciles à imprimer
+
+StageFlow génère un classeur Excel organisé par groupe. Chaque groupe possède
+sa propre feuille, prévue pour tenir sur une page A4 paysage lisible.
+
+Le résultat peut être corrigé dans Excel, imprimé, envoyé ou réimporté dans
+StageFlow.
+
+### Dessiner un plan de scène
+
+L’éditeur de plan permet de poser les éléments essentiels d’une implantation et
+de garder le plan avec le patch du spectacle.
+
+Si AutoCAD 2026 est installé, le connecteur optionnel ajoute l’onglet
+**SILEMI/O** et la commande **Patch StageFlow** pour poursuivre le plan
+technique dans AutoCAD.
+
+### Conserver un vrai projet
+
+Un projet StageFlow est un dossier portant l’extension
+<code>.stageflow</code>. Il peut être sauvegardé, rouvert, copié sur un autre
+ordinateur ou archivé avec le reste du dossier de production.
 
 ## Un seul projet, plusieurs outils
 
-```mermaid
+~~~mermaid
 flowchart LR
-    P[(Projet .stageflow)]
-    SF[StageFlow\nPatch + plan]
-    SMT[SMT\nPréparation console]
-    DCE[Dante Config Editor\nRéseau Dante]
-    SM[StageMark\nImplantation + projection]
-    CAD[AutoCAD\nPlan technique]
-    SF <--> P
-    SMT <--> P
-    DCE <--> P
-    SM <--> P
-    CAD <--> P
-```
+    P[("Projet .stageflow")]
+    SF["StageFlow<br/>Patch + plan"] <--> P
+    SMT["SMT<br/>Préparation console"] <--> P
+    DCE["Dante Config Editor<br/>Réseau Dante"] <--> P
+    SM["StageMark<br/>Implantation + projection"] <--> P
+    CAD["AutoCAD<br/>Plan technique"] <--> P
+~~~
 
-## Installation
+Vous installez uniquement les outils dont vous avez besoin. StageFlow est
+gratuit et facultatif, et les autres logiciels peuvent ouvrir le projet commun
+sans que StageFlow soit lancé.
 
-1. Ouvrir la **dernière Release**.
-2. Télécharger `SiLeMIO-StageFlow-Setup.exe` et
-   `SiLeMIO-StageFlow-Setup.exe.sha256`.
-3. Vérifier l’empreinte SHA-256, puis lancer l’installateur.
-4. Laisser cochée l’option AutoCAD si le connecteur est souhaité.
+- [SMT — transférer labels et réglages entre consoles et logiciels](https://github.com/Mamat79/Save-My-Time-SMT/releases/latest)
+- [Dante Config Editor — préparer un réseau Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
+- [StageMark — dessiner, implanter et projeter des repères](https://github.com/Mamat79/StageMark/releases/latest)
 
-**[Télécharger la dernière version](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)**
+## Installation Windows
 
-Le connecteur AutoCAD 2026 ajoute l’onglet **SILEMI/O** et le bouton
-**Patch StageFlow**. Aucun composant Autodesk n’est redistribué.
+1. Ouvrez la [dernière version](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest).
+2. Téléchargez <code>SiLeMIO-StageFlow-Setup.exe</code>.
+3. Lancez l’installateur.
+4. Gardez l’option AutoCAD cochée si vous souhaitez installer le connecteur.
+
+L’application et le connecteur AutoCAD peuvent être installés ou utilisés
+indépendamment selon votre méthode de travail.
+
+---
 
 ## English
 
-StageFlow is a free, offline-friendly Windows application for patch lists,
-group-specific A4 Excel workbooks and simple stage plans. It can share the same
-native `.stageflow` project with SMT, Dante Config Editor, StageMark and the
-optional AutoCAD 2026 connector. Every suite application remains standalone.
+### What is StageFlow for?
 
-The diagram above is the product promise: one shared project, any combination
-of standalone tools.
+StageFlow is a free offline preparation tool for live events, broadcast,
+recording and production work. It keeps the stage patch, shared lines, working
+groups and a simple stage plan in one project.
 
-This public repository contains distribution files only. The source code is
-maintained in a separate private repository.
+The goal is simple: **prepare the information once, print the right sheet for
+each team and avoid entering the same data in several applications**.
+
+### A typical workflow
+
+1. Choose the required number of pairs and groups.
+2. Enter sources, microphones and comments in the spreadsheet-style grid.
+3. Add the lines shared by every group.
+4. Copy, paste or drag down to continue a list.
+5. Export an Excel workbook with one printable A4 sheet per group.
+6. Draw the first stage elements or continue the technical plan in AutoCAD.
+7. Open the same project in other SiLeMI/O applications when needed.
+
+StageFlow works on its own. The shared <code>.stageflow</code> project can also
+be opened by SMT, Dante Config Editor, StageMark and the optional AutoCAD 2026
+connector.
+
+### Main features
+
+- Any number of pairs and groups.
+- Shared lines inherited by every group.
+- Spreadsheet-style editing, copy/paste and smart fill.
+- Excel export and refresh.
+- One landscape A4 page per group.
+- Simple stage-plan editor.
+- Optional AutoCAD connector.
+- French and English interface.
+- Local, offline projects with no mandatory cloud service.
+
+### Download
+
+StageFlow is currently available for Windows 11 x64.
+
+**[Download the latest StageFlow release](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)**
 
 ---
 
