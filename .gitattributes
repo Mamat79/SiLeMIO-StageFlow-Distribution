@@ -5,3 +5,4 @@
 *.exe binary
 *.pdf binary
 *.png binary
+*.streamDeckPlugin binary

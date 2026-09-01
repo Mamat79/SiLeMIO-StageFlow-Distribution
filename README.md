@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
+  <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
 ---
@@ -109,8 +109,25 @@ propose :
 
 StageFlow réutilise les véritables contrôleurs de StageMark et StageMon : vous
 retrouvez les mêmes commandes et les mêmes sécurités. Un logiciel absent ou non
-connecté au spectacle reste simplement indisponible. Arrêter la télécommande
-StageFlow révoque immédiatement la session.
+connecté au spectacle reste simplement indisponible. Jusqu’à 24 téléphones ou
+tablettes peuvent rejoindre la session simultanément, avec un acquittement des
+alertes de labels propre à chaque appareil. Arrêter la télécommande StageFlow
+révoque immédiatement la session.
+
+## Piloter la suite depuis OSC, MIDI ou Stream Deck
+
+StageFlow regroupe les commandes utiles de la suite dans un seul écran :
+
+- recevez des commandes OSC et choisissez les retours d’état à renvoyer ;
+- associez un bouton MIDI en l’actionnant une seule fois grâce au mode
+  d’apprentissage ;
+- installez directement le plugin Stream Deck fourni avec StageFlow ;
+- utilisez les mêmes commandes pour changer de groupe, avancer dans les cues,
+  lancer un BLACKOUT ou piloter les écoutes StageMon.
+
+Tout reste facultatif. StageFlow, StageMark et StageMon continuent de fonctionner
+seuls ; les commandes entre logiciels deviennent disponibles lorsqu’ils ont
+rejoint le même projet LIVE.
 
 ## Un seul projet, plusieurs outils
 
@@ -140,7 +157,7 @@ sans que StageFlow soit lancé.
 
 ## Installation Windows
 
-1. Ouvrez la [dernière version](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest).
+1. Ouvrez la [dernière version](https://github.com/Mamat79/StageFlow/releases/latest).
 2. Téléchargez `StageFlow-Setup.exe`.
 3. Lancez l'installateur.
 4. Gardez l'option AutoCAD cochée si vous souhaitez installer le connecteur.
@@ -184,10 +201,16 @@ every tool.
 
 One QR code can also open a unified phone portal: StageFlow patch controls in
 the first tab, then the complete existing StageMark and StageMon remote
-interfaces. Each application keeps its own safety rules, and stopping the
-StageFlow remote revokes the session immediately.
+interfaces. Up to 24 phones or tablets can join simultaneously, with independent
+label-alert acknowledgements. Each application keeps its own safety rules, and
+stopping the StageFlow remote revokes the session immediately.
 
-**[Download the latest StageFlow release](https://github.com/Mamat79/SiLeMIO-StageFlow-Distribution/releases/latest)**
+**[Download the latest StageFlow release](https://github.com/Mamat79/StageFlow/releases/latest)**
+
+StageFlow also includes an OSC control centre, MIDI learn and an installable
+Stream Deck plugin. The same command set can change StageFlow groups, move
+through StageMark cues and operate the main StageMon listening controls while
+the applications share a LIVE project.
 
 This public repository contains the Windows downloads. The source code is
 maintained separately.
