@@ -8,6 +8,7 @@ tout en laissant chaque logiciel entièrement autonome.
 ### Contrôles externes
 
 - nouvel écran **Outils → OSC · MIDI · Stream Deck** ;
+- textes et réglages désormais lisibles dans les thèmes sombre et clair ;
 - réception OSC locale active par défaut, choix explicite de l’interface réseau,
   du port et des retours d’état ;
 - tableau bilingue des commandes et adresses OSC personnalisables ;
@@ -27,7 +28,16 @@ tout en laissant chaque logiciel entièrement autonome.
 - passerelle QR adaptée aux téléphones et tablettes ;
 - alertes LIVE limitées volontairement aux changements de labels ;
 - acquittement des alertes propre à chaque contrôleur, avec remise à zéro
-  générale depuis StageFlow.
+  générale depuis StageFlow ;
+- arrêt du LIVE et fermeture de StageFlow fiabilisés afin que la fenêtre ne se
+  fige plus pendant l'arrêt des services réseau.
+
+### Cohérence de la suite
+
+- nom public **StageDesk** appliqué dans StageFlow et dans les guides ;
+- console ordonnée : StageFlow, StageDesk, StageMark, StageMon, Dante Config
+  Editor, AutoCAD ;
+- terme **show** utilisé dans les deux langues pour le nom du projet.
 
 ### Projet et compatibilité
 
@@ -50,7 +60,13 @@ supports applications distributed across several computers on the same local
 network, the QR portal adapts to phones and tablets, and LIVE alerts are
 deliberately limited to label changes. Future unknown project domains and
 binary assets remain preserved, and `.stageflowpack` can carry a project as one
-portable file.
+portable file. LIVE shutdown and application closing no longer block the user
+interface while network services stop.
 
 Every application remains usable on its own, with LIVE and all external
 control features disabled whenever they are not needed.
+
+External-control text now remains readable in both themes. StageDesk uses its
+current public name throughout StageFlow, the suite console follows the order
+StageFlow, StageDesk, StageMark, StageMon, Dante Config Editor, AutoCAD, and
+both languages use **show** for the project name.

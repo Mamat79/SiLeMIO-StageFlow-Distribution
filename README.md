@@ -17,7 +17,7 @@
 
 ## StageFlow, à quoi ça sert ?
 
-StageFlow est un logiciel de préparation pour le spectacle, la captation, le
+StageFlow est un logiciel de préparation pour le show, la captation, le
 broadcast et l'événementiel. Il rassemble dans un même projet le patch de
 scène, les paires communes, les groupes de travail et un plan simple.
 
@@ -79,7 +79,7 @@ anglais.
 ## Dessiner un plan de scène
 
 L'éditeur de plan permet de poser les éléments essentiels d'une implantation,
-d'exporter une image et de garder le plan avec le patch du spectacle.
+d'exporter une image et de garder le plan avec le patch du show.
 
 Si AutoCAD 2026 est installé, le connecteur optionnel ajoute l'onglet
 **SILEMI/O** et la commande **Patch StageFlow** pour poursuivre le plan
@@ -87,7 +87,7 @@ technique dans AutoCAD.
 
 ## Mode LIVE ou travail manuel
 
-Activez **Mode LIVE** lorsque StageFlow doit coordonner le spectacle. Les pages
+Ouvrez le **Centre LIVE** lorsque StageFlow doit coordonner le show. Les pages
 de groupes, labels, micros, commentaires et choix de paires communes sont alors
 publiés automatiquement et les logiciels compatibles suivent le projet en
 temps réel.
@@ -109,7 +109,7 @@ propose :
 
 StageFlow réutilise les véritables contrôleurs de StageMark et StageMon : vous
 retrouvez les mêmes commandes et les mêmes sécurités. Un logiciel absent ou non
-connecté au spectacle reste simplement indisponible. Jusqu’à 24 téléphones ou
+connecté au show reste simplement indisponible. Jusqu’à 24 téléphones ou
 tablettes peuvent rejoindre la session simultanément, avec un acquittement des
 alertes de labels propre à chaque appareil. Arrêter la télécommande StageFlow
 révoque immédiatement la session.
@@ -135,7 +135,7 @@ rejoint le même projet LIVE.
 flowchart LR
     P[(Projet .stageflow)]
     SF[StageFlow<br/>Patch + plan] <--> P
-    SMT[StageDesk<br/>Préparation console] <--> P
+    DESK[StageDesk<br/>Préparation console] <--> P
     SM[StageMark<br/>Implantation + projection] <--> P
     MON[StageMon<br/>Écoutes live] <--> P
     DCE[Dante Config Editor<br/>Réseau Dante] <--> P
