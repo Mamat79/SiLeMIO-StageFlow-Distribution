@@ -136,9 +136,9 @@ flowchart LR
     P[(Projet .stageflow)]
     SF[StageFlow<br/>Patch + plan] <--> P
     SMT[StageDesk<br/>Préparation console] <--> P
-    DCE[Dante Config Editor<br/>Réseau Dante] <--> P
     SM[StageMark<br/>Implantation + projection] <--> P
     MON[StageMon<br/>Écoutes live] <--> P
+    DCE[Dante Config Editor<br/>Réseau Dante] <--> P
     CAD[AutoCAD<br/>Plan technique] <--> P
 ```
 
@@ -151,9 +151,9 @@ sans que StageFlow soit lancé.
 [Illustrated guide in English](guides/SiLeMIO-Suite-Guide-EN.pdf)
 
 - [StageDesk — transférer labels et réglages entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest)
-- [Dante Config Editor — préparer un réseau Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
 - [StageMark — dessiner, implanter et projeter des repères](https://github.com/Mamat79/StageMark/releases/latest)
 - [StageMon — préparer deux écoutes et les piloter en direct](https://github.com/Mamat79/StageMon/releases/latest)
+- [Dante Config Editor — préparer un réseau Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
 
 ## Installation Windows
 
