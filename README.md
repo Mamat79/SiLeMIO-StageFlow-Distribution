@@ -26,7 +26,7 @@ L'objectif est direct : **préparer une seule fois, imprimer ce dont chaque
 logiciels**.
 
 StageFlow peut être utilisé seul. Il peut aussi devenir le centre d'un flux
-partagé avec Save My Time, Dante Config Editor, StageMark, StageMon et AutoCAD.
+partagé avec StageDesk, StageMark, StageMon, Dante Config Editor et AutoCAD.
 Chaque logiciel reste autonome et vous installez uniquement ceux dont vous avez
 besoin.
 
@@ -135,7 +135,7 @@ rejoint le même projet LIVE.
 flowchart LR
     P[(Projet .stageflow)]
     SF[StageFlow<br/>Patch + plan] <--> P
-    SMT[Save My Time<br/>Préparation console] <--> P
+    SMT[StageDesk<br/>Préparation console] <--> P
     DCE[Dante Config Editor<br/>Réseau Dante] <--> P
     SM[StageMark<br/>Implantation + projection] <--> P
     MON[StageMon<br/>Écoutes live] <--> P
@@ -150,7 +150,7 @@ sans que StageFlow soit lancé.
 📘 [Guide illustré en français](guides/Guide-Suite-SiLeMIO-FR.pdf) ·
 [Illustrated guide in English](guides/SiLeMIO-Suite-Guide-EN.pdf)
 
-- [Save My Time — transférer labels et réglages entre consoles et logiciels](https://github.com/Mamat79/Save-My-Time-SMT/releases/latest)
+- [StageDesk — transférer labels et réglages entre consoles et logiciels](https://github.com/Mamat79/StageDesk/releases/latest)
 - [Dante Config Editor — préparer un réseau Dante hors ligne](https://github.com/Mamat79/Dante-Config-Editor/releases/latest)
 - [StageMark — dessiner, implanter et projeter des repères](https://github.com/Mamat79/StageMark/releases/latest)
 - [StageMon — préparer deux écoutes et les piloter en direct](https://github.com/Mamat79/StageMon/releases/latest)
@@ -192,7 +192,7 @@ each team and avoid entering the same data in several applications**.
 - Local projects with no mandatory account, cloud or server.
 
 StageFlow works on its own. The shared `.stageflow` project can also be opened
-by Save My Time, Dante Config Editor, StageMark, StageMon and AutoCAD. Every
+by StageDesk, StageMark, StageMon, Dante Config Editor and AutoCAD. Every
 application remains fully standalone.
 
 An explicit **LIVE mode** lets StageFlow coordinate compatible applications in
