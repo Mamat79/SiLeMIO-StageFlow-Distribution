@@ -13,6 +13,22 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4">
+    <img src="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr-poster.png" width="820" alt="Présentation vidéo de la suite SiLeMIO">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Voir la suite en action</strong><br>
+  <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4">Vidéo de la suite · FR</a>
+  · <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.vtt">Sous-titres FR</a>
+  · <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.mp4">Suite video · EN</a>
+  · <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.vtt">EN captions</a><br>
+  <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-fr.mp4">StageFlow en 30 secondes · FR</a>
+  · <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-en.mp4">StageFlow in 30 seconds · EN</a>
+</p>
+
 ---
 
 ## StageFlow, à quoi ça sert ?
