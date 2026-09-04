@@ -216,7 +216,7 @@ Le mode compact garde la console sous la main ; sur un petit écran, la console
 se replie pour laisser de la place au patch. Le plugin Stream Deck Mac est inclus.
 
 📘 [Prise en main macOS — français et anglais](guides/StageFlow-macOS.html)
-complète les guides communs de la suite, publiés avec l'édition Windows.
+complète les guides communs 2027.1 de la suite.
 Elle précise les raccourcis Mac, les commandes, les mises à jour et les
 différences d'ouverture des autres applications.
 

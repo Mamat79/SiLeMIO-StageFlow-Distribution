@@ -24,9 +24,9 @@ si vous souhaitez réunir plusieurs outils autour du même show.
 
 ## Disponibilité et précautions
 
-Cette livraison est une vraie application Windows x64 autonome. StageFlow
-pour Mac reste en portage et n'est pas livré ici. Les clients Mac compatibles
-de la suite peuvent rejoindre un maître StageFlow Windows sur le réseau local.
+Cette section décrit l'application Windows x64 autonome. StageFlow pour Mac a
+depuis été ajouté à la même release v2027.0, en éditions Apple Silicon et Intel.
+Consultez `RELEASE_NOTES_MACOS_2027.0.md` avant de choisir votre paquet.
 
 Le connecteur AutoCAD 2026 pour Windows est facultatif et décoché par défaut.
 Il ne contient pas de bibliothèques Autodesk. La projection, les interfaces
@@ -50,8 +50,9 @@ voluntary LAN joining with a six-digit code, a multi-controller mobile QR
 portal, local label-alert acknowledgements, host notification pause, compact
 suite controls, optional OSC/MIDI/Stream Deck and the finalized FR/EN guides.
 
-This is a native Windows x64 release. StageFlow for Mac is still being ported
-and is not included. Compatible Mac suite clients can join a Windows host.
+This section describes the native Windows x64 application. StageFlow for Mac
+was later added to the same v2027.0 release for Apple Silicon and Intel. Read
+`RELEASE_NOTES_MACOS_2027.0.md` before choosing your package.
 The AutoCAD 2026 Windows connector is optional and unchecked by default.
 Hardware acceptance is required on your own installation. Remote commands
 never bypass application safety; use a trusted LAN, not an Internet exposure.
