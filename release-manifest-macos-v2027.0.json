@@ -1,0 +1,61 @@
+{
+  "application": "StageFlow",
+  "version": "2027.0",
+  "tag": "v2027.0",
+  "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0",
+  "productSourceCommit": "4e415f2da2e3d8bb3a58929940e717e62fc1b4af",
+  "qaAuditCommit": "0a73e530ea7633c9affc8a30fa8add54e7f7f981",
+  "macos": {
+    "minimumVersion": "14.0",
+    "signature": "ad-hoc-integrity",
+    "appleNotarized": false,
+    "arm64": {
+      "asset": "StageFlow-2027.0-macos-arm64.dmg",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-arm64.dmg",
+      "bytes": 66771446,
+      "sha256": "86EEBA32784A7C6C982040DE05CB8B2AC2617BD7C820A41C303A1E30547F3FD4"
+    },
+    "x64": {
+      "asset": "StageFlow-2027.0-macos-x64.dmg",
+      "url": "https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-x64.dmg",
+      "bytes": 67857150,
+      "sha256": "119621400869DC9C1E264800C4FB0C909CD79D2B19549DBF665AEBCC4C07D917"
+    }
+  },
+  "acceptance": {
+    "nativeBuildRun": 33902473167,
+    "testsPerArchitecture": 264,
+    "mountedReadOnly": true,
+    "startupAndProjectOpened": true,
+    "projectFilesComparedPerArchitecture": 3,
+    "isolatedProfileUntouched": true,
+    "visualReview": {
+      "arm64": "accepted at 1024x768; small-height patch and folded suite console visible",
+      "x64": "accepted at 1920x1080 by complementary existing-DMG visibility run",
+      "x64VisibilityRun": 33904017543,
+      "x64StartupReadySeconds": 9.532832026481628,
+      "x64ProjectReadySeconds": 6.112680912017822
+    }
+  },
+  "guides": {
+    "macosSupplement": {
+      "asset": "StageFlow-macOS.html",
+      "bytes": 12193,
+      "sha256": "81951615046546865581EE823D6A9BEF4D63A8DCACB10DD26BD2169AAB0521BE"
+    },
+    "suiteFrenchSha256": "B25F32C9AD06735AC21727508A1D222FBB0DEEE2B487BA60BC88B16BE0907D71",
+    "suiteEnglishSha256": "CFA7D7E888E91AEDE41954AB1417B1CB71DEE1F857AC3AEE218D89560D73A656",
+    "suiteManifestSha256": "31C6CD028AC40AACA3F2B6D7BEBBBF43BF8A2613D3BC2A2535FD383D85B2AFEB"
+  },
+  "streamDeck": {
+    "asset": "SiLeMIO-StageFlow-Mac.streamDeckPlugin",
+    "bytes": 62752,
+    "sha256": "569CF4F95F2324DB078913E7C10F9817E31521FC93A7D7E13E795917A5B38E5D"
+  },
+  "limitations": [
+    "The packages are ad-hoc integrity-signed and are not Apple-notarized.",
+    "Physical MIDI, Stream Deck, audio and projection hardware were not available in native CI.",
+    "The AutoCAD connector remains Windows-only."
+  ],
+  "windowsAssetsUnchanged": true
+}

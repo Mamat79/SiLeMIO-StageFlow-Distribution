@@ -6,12 +6,16 @@
 
 <p align="center">
   <strong>Préparez le patch, les groupes et le plan de scène dans un seul projet.</strong><br>
-  Gratuit · Hors ligne · Français / English · Windows
+  Gratuit · Hors ligne · Français / English · Windows / macOS
 </p>
 
 <p align="center">
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
+
+**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-Setup.exe)** ·
+**[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-arm64.dmg)** ·
+**[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-x64.dmg)**
 
 ---
 
@@ -97,7 +101,7 @@ anglais.
 L'éditeur de plan permet de poser les éléments essentiels d'une implantation,
 d'exporter une image et de garder le plan avec le patch du show.
 
-Si AutoCAD 2026 est installé, le connecteur optionnel ajoute l'onglet
+Si AutoCAD 2026 pour Windows est installé, le connecteur optionnel ajoute l'onglet
 **SILEMI/O** et la commande **Patch StageFlow** pour poursuivre le plan
 technique dans AutoCAD.
 
@@ -113,7 +117,7 @@ Coupez LIVE à tout moment pour revenir à un fonctionnement entièrement manuel
 continue de fonctionner seul. Une mise à jour StageMark ne déclenche jamais une
 projection et une mise à jour Dante ne commande jamais le réseau en direct.
 
-Sur plusieurs ordinateurs, StageFlow héberge le show sous Windows. Chaque
+Sur plusieurs ordinateurs, StageFlow héberge le show sous Windows ou macOS. Chaque
 logiciel compatible choisit volontairement cette session sur le réseau local
 et entre le code à six chiffres. Le centre distingue les postes, logiciels et
 mobiles connectés. Une déconnexion ne provoque pas de reconnexion automatique.
@@ -195,13 +199,33 @@ Le raccourci est **StageFlow v2027**. L'installateur ne ferme pas automatiquemen
 vos logiciels et préserve les projets et réglages utilisateur. Fermez StageFlow
 vous-même après avoir enregistré avant de remplacer une version ouverte.
 
-**Disponibilité : Windows x64.** StageFlow pour Mac reste en portage et n'est
-pas encore disponible. Les éditions Mac compatibles de StageDesk, StageMark
-et Dante Config Editor peuvent rejoindre une session hébergée par StageFlow
-sur Windows. Le connecteur AutoCAD fourni est réservé à AutoCAD 2026 Windows.
-
 Le menu **Aide** et la touche **F1** ouvrent un guide directement dans
 l'application. Les mises à jour peuvent être recherchées depuis StageFlow.
+
+## Installation macOS
+
+StageFlow v2027 est disponible pour **macOS 14 ou ultérieur**, en deux éditions
+autonomes : **Apple Silicon** (puces M) et **Intel**. Choisissez le téléchargement
+adapté en haut de cette page, ouvrez le DMG et glissez **StageFlow.app** dans
+Applications. Enregistrez et quittez une version déjà ouverte avant de la remplacer.
+Le premier affichage peut demander une dizaine de secondes sur certains Mac Intel.
+
+Préparez votre patch, votre classeur Excel et votre plan directement sur Mac,
+ou hébergez une Session StageFlow LIVE pour les autres postes du réseau local.
+Le mode compact garde la console sous la main ; sur un petit écran, la console
+se replie pour laisser de la place au patch. Le plugin Stream Deck Mac est inclus.
+
+📘 [Prise en main macOS — français et anglais](guides/StageFlow-macOS.html)
+complète les guides communs de la suite, publiés avec l'édition Windows.
+Elle précise les raccourcis Mac, les commandes, les mises à jour et les
+différences d'ouverture des autres applications.
+
+**Sécurité et limites :** cette édition possède une signature d'intégrité
+ad-hoc, sans signature Developer ID ni notarisation Apple. macOS peut bloquer
+son ouverture : vérifiez la source officielle et suivez uniquement la procédure
+d'ouverture autorisée par macOS, sans désactiver ses protections globales.
+Le connecteur AutoCAD reste réservé à AutoCAD 2026 Windows. Vérifiez MIDI,
+Stream Deck, audio et projection sur votre propre matériel avant exploitation.
 
 ---
 
@@ -256,12 +280,32 @@ Stream Deck plugin. The same command set can change StageFlow groups, move
 through StageMark cues and operate the main StageMon listening controls while
 the applications share a LIVE project.
 
-This public repository contains the Windows downloads. The source code is
+This public repository contains Windows and macOS downloads. The source code is
 maintained separately.
 
-**Availability: Windows x64.** StageFlow for Mac is still being ported and is
-not available. Compatible Mac suite clients can join a Windows StageFlow host.
-The optional AutoCAD connector targets AutoCAD 2026 for Windows only.
+### Install on Mac
+
+**macOS 14 or later** is supported, with separate self-contained
+[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-arm64.dmg)
+and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-x64.dmg)
+downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
+Save and quit any previous version before replacing it.
+The first window may take about ten seconds to appear on some Intel Macs.
+
+Prepare patches, Excel workbooks and plans on Mac, or host a StageFlow LIVE
+session for compatible Windows and Mac clients on your local network. The
+suite console folds on small displays to keep the patch usable and remains
+accessible in compact mode. The Mac Stream Deck plugin is included.
+
+[Getting started on macOS — English / French](guides/StageFlow-macOS.html)
+supplements the shared suite guides released with the Windows edition and
+explains Mac shortcuts, updates and application-launch differences.
+
+**Security and limits:** this edition is ad-hoc integrity-signed, not Developer
+ID signed or Apple-notarized. macOS may block it: verify the official source
+and use only the opening procedure permitted by macOS, without disabling
+system-wide protection. The AutoCAD connector remains Windows-only. Check
+MIDI, Stream Deck, audio and projection on your own hardware before live use.
 
 ---
 
