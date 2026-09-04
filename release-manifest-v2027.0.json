@@ -4,7 +4,7 @@
   "tag": "v2027.0",
   "releaseUrl": "https://github.com/Mamat79/StageFlow/releases/tag/v2027.0",
   "binarySourceCommit": "b912f56e23aa759f5fd70e20f28e7fcefc2dd1b5",
-  "guideSourceCommit": "b5b80468031190ffa3362fea30f8c54ca5fc078e",
+  "guideSourceCommit": "e752b1e75f29a6ed3802af4b95e35bfabc6128fb",
   "windows": {
     "architecture": "x64",
     "fileVersion": "2027.0.0.0",
@@ -16,24 +16,26 @@
     "shortcut": "StageFlow v2027"
   },
   "macos": {
-    "available": false,
-    "status": "port-in-progress"
+    "available": true,
+    "minimumVersion": "14.0",
+    "architectures": ["arm64", "x64"],
+    "manifestAsset": "release-manifest-macos-v2027.0.json"
   },
   "guides": [
     {
       "language": "fr",
       "asset": "Guide-Suite-SiLeMIO-FR.pdf",
-      "bytes": 131153,
-      "sha256": "B25F32C9AD06735AC21727508A1D222FBB0DEEE2B487BA60BC88B16BE0907D71"
+      "bytes": 405675,
+      "sha256": "D9745A119A6112D6E13AD0783F4AED928819ED49C101846C09DE391DA2E0B110"
     },
     {
       "language": "en",
       "asset": "SiLeMIO-Suite-Guide-EN.pdf",
-      "bytes": 127610,
-      "sha256": "CFA7D7E888E91AEDE41954AB1417B1CB71DEE1F857AC3AEE218D89560D73A656"
+      "bytes": 363267,
+      "sha256": "ADAB35A01BB06BCF4E715B6EFAA9701C9BD73F753C53806AD6AFEB985B670B71"
     }
   ],
-  "guideManifestSha256": "31C6CD028AC40AACA3F2B6D7BEBBBF43BF8A2613D3BC2A2535FD383D85B2AFEB",
+  "guideManifestSha256": "7C0C7C825C5122D58AD7D9F35DECE3F0EA83EC35581DC778F7CEB66579E0BFB4",
   "streamDeck": {
     "asset": "SiLeMIO-StageFlow.streamDeckPlugin",
     "bytes": 62785,
