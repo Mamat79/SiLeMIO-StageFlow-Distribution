@@ -2,7 +2,7 @@
   <img src="stageflow-logo.png" alt="StageFlow" width="680">
 </p>
 
-<h1 align="center">StageFlow</h1>
+<h1 align="center">StageFlow v2027</h1>
 
 <p align="center">
   <strong>Préparez le patch, les groupes et le plan de scène dans un seul projet.</strong><br>
@@ -13,23 +13,23 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4">
-    <img src="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr-poster.png" width="820" alt="Présentation vidéo de la suite SiLeMIO">
-  </a>
-</p>
-
-<p align="center">
-  <strong>Voir la suite en action</strong><br>
-  <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4">Vidéo de la suite · FR</a>
-  · <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.vtt">Sous-titres FR</a>
-  · <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.mp4">Suite video · EN</a>
-  · <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.vtt">EN captions</a><br>
-  <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-fr.mp4">StageFlow en 30 secondes · FR</a>
-  · <a href="https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-en.mp4">StageFlow in 30 seconds · EN</a>
-</p>
-
 ---
+
+## Découvrir la suite en vidéo
+
+[![Présentation de la suite SiLeMIO](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr-poster.png)](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4)
+
+[La suite - FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.mp4) ·
+[Sous-titres FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-fr.vtt) ·
+[Suite video - EN](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.mp4) ·
+[EN captions](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/silemio-suite-en.vtt)
+
+[StageFlow en 30 secondes - FR](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-fr.mp4) ·
+[StageFlow in 30 seconds - EN](https://github.com/Mamat79/StageFlow/releases/download/v2026.3/stageflow-presentation-en.mp4)
+
+Vidéos de découverte sans voix générée, avec captures de l'édition v2026.
+Consultez les guides v2027 pour les écrans et limites de la nouvelle édition.
+Discovery videos use v2026 screenshots; the v2027 guides describe this release.
 
 ## StageFlow, à quoi ça sert ?
 
@@ -103,7 +103,7 @@ technique dans AutoCAD.
 
 ## Mode LIVE ou travail manuel
 
-Ouvrez le **Centre LIVE** lorsque StageFlow doit coordonner le show. Les pages
+Ouvrez **Session StageFlow LIVE** lorsque StageFlow doit coordonner le show. Les pages
 de groupes, labels, micros, commentaires et choix de paires communes sont alors
 publiés automatiquement et les logiciels compatibles suivent le projet en
 temps réel.
@@ -113,9 +113,22 @@ Coupez LIVE à tout moment pour revenir à un fonctionnement entièrement manuel
 continue de fonctionner seul. Une mise à jour StageMark ne déclenche jamais une
 projection et une mise à jour Dante ne commande jamais le réseau en direct.
 
+Sur plusieurs ordinateurs, StageFlow héberge le show sous Windows. Chaque
+logiciel compatible choisit volontairement cette session sur le réseau local
+et entre le code à six chiffres. Le centre distingue les postes, logiciels et
+mobiles connectés. Une déconnexion ne provoque pas de reconnexion automatique.
+
+Les **alertes de labels** peuvent prévenir l'équipe pendant l'exploitation :
+ancien nom, nouveau nom, origine et heure restent visibles jusqu'à
+l'acquittement local. Chaque destinataire les reçoit par défaut mais peut les
+désactiver pour lui seul. Le maître peut suspendre les notifications tout en
+gardant LIVE actif ; les modifications faites pendant la pause ne sont pas
+rejouées au retour.
+
 ## Un QR code, toutes les télécommandes
 
-StageFlow peut devenir la console centrale du poste. Ouvrez **Télécommande**,
+StageFlow peut devenir la console centrale du poste. Ouvrez **Session StageFlow
+LIVE > Téléphones et tablettes**,
 choisissez le réseau du téléphone et scannez un seul QR code. Le portail mobile
 propose :
 
@@ -176,7 +189,16 @@ sans que StageFlow soit lancé.
 1. Ouvrez la [dernière version](https://github.com/Mamat79/StageFlow/releases/latest).
 2. Téléchargez `StageFlow-Setup.exe`.
 3. Lancez l'installateur.
-4. Gardez l'option AutoCAD cochée si vous souhaitez installer le connecteur.
+4. Cochez l'option AutoCAD uniquement si vous souhaitez installer le connecteur.
+
+Le raccourci est **StageFlow v2027**. L'installateur ne ferme pas automatiquement
+vos logiciels et préserve les projets et réglages utilisateur. Fermez StageFlow
+vous-même après avoir enregistré avant de remplacer une version ouverte.
+
+**Disponibilité : Windows x64.** StageFlow pour Mac reste en portage et n'est
+pas encore disponible. Les éditions Mac compatibles de StageDesk, StageMark
+et Dante Config Editor peuvent rejoindre une session hébergée par StageFlow
+sur Windows. Le connecteur AutoCAD fourni est réservé à AutoCAD 2026 Windows.
 
 Le menu **Aide** et la touche **F1** ouvrent un guide directement dans
 l'application. Les mises à jour peuvent être recherchées depuis StageFlow.
@@ -211,9 +233,15 @@ StageFlow works on its own. The shared `.stageflow` project can also be opened
 by StageDesk, StageMark, StageMon, Dante Config Editor and AutoCAD. Every
 application remains fully standalone.
 
-An explicit **LIVE mode** lets StageFlow coordinate compatible applications in
-real time. Turn it off at any time to restore manual Save/Reload operation in
-every tool.
+An explicit **StageFlow LIVE session** lets StageFlow coordinate compatible
+applications, including computers on the same trusted local network. Each
+client joins voluntarily with the host's six-digit code; disconnection never
+silently reconnects. Turn LIVE off to restore manual Save/Reload operation.
+
+Persistent label alerts show the old and new source name, origin and time.
+Recipients receive them by default and acknowledge only their own alerts, or
+turn reception off locally. The host may pause notifications without stopping
+LIVE; changes made during the pause are not replayed.
 
 One QR code can also open a unified phone portal: StageFlow patch controls in
 the first tab, then the complete existing StageMark and StageMon remote
@@ -230,6 +258,10 @@ the applications share a LIVE project.
 
 This public repository contains the Windows downloads. The source code is
 maintained separately.
+
+**Availability: Windows x64.** StageFlow for Mac is still being ported and is
+not available. Compatible Mac suite clients can join a Windows StageFlow host.
+The optional AutoCAD connector targets AutoCAD 2026 for Windows only.
 
 ---
 
