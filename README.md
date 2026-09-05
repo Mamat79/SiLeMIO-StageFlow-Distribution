@@ -13,9 +13,11 @@
   <a href="https://github.com/Mamat79/StageFlow/releases/latest"><strong>⬇ Télécharger StageFlow</strong></a>
 </p>
 
-**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-Setup.exe)** ·
-**[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-arm64.dmg)** ·
-**[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-x64.dmg)**
+**[Windows](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-Setup.exe)** ·
+**[Mac Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-arm64.dmg)** ·
+**[Mac Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-x64.dmg)**
+
+Version actuelle : **2027.0.1**. Le nom affiché reste **StageFlow v2027**.
 
 ---
 
@@ -286,8 +288,8 @@ maintained separately.
 ### Install on Mac
 
 **macOS 14 or later** is supported, with separate self-contained
-[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-arm64.dmg)
-and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.0/StageFlow-2027.0-macos-x64.dmg)
+[Apple Silicon](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-arm64.dmg)
+and [Intel](https://github.com/Mamat79/StageFlow/releases/download/v2027.0.1/StageFlow-2027.0.1-macos-x64.dmg)
 downloads. Open the matching DMG and drag **StageFlow.app** into Applications.
 Save and quit any previous version before replacing it.
 The first window may take about ten seconds to appear on some Intel Macs.
